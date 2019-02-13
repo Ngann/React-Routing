@@ -1,18 +1,15 @@
-import React from "react";
-// import MyStyledComponent from "./components/MyStyledComponent";
-import Navigation from "./Navigation";
-import Profile from "./Profile";
-import HomeScreen from "./Homescreen";
+import React from 'react'
+import Header from './Header'
+import TicketList from './TicketList'
 
 
 function App(){
   return (
     <div>
-      <h1>Social Media App</h1>
-      <Navigation/>
-      <Profile/>
+      <Header/>
+      <TicketList/>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
