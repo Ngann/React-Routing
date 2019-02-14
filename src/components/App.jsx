@@ -18,6 +18,7 @@ function App(){
     display: 'inline-block',
     textAlign: 'center',
     display: 'block',
+    fontFamily: 'Arial,Helvetica,sans-serif',
   }
   var main = {
     width: '100%',
