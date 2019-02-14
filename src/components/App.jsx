@@ -3,8 +3,6 @@ import HeaderSG from './HeaderSG'
 import Search from './Search'
 import Sport from './Sport'
 import LocationDate from './Location'
-import Highlight from './Highlight'
-import TicketList from './TicketList'
 import { Switch, Route } from 'react-router-dom'
 import NewTicketForm from './NewTicketForm'
 import Main from './Main'
@@ -17,7 +15,6 @@ function App(){
     backgroundColor: '#1673e6',
     display: 'inline-block',
     textAlign: 'center',
-    display: 'block',
     fontFamily: 'Arial,Helvetica,sans-serif',
   }
   var main = {
@@ -26,7 +23,6 @@ function App(){
     backgroundColor: '#1673e6',
     display: 'inline-block',
     textAlign: 'center',
-    display: 'block',
   }
   return (
     <div className="header-box" style={container}>

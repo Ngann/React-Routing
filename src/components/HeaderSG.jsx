@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import logoHeader from '../assets/images/logo.png'
 
 function HeaderSG(){
   var styles1 = {
@@ -8,7 +9,6 @@ function HeaderSG(){
     backgroundColor: '#1673e6',
     display: 'inline-block',
     textAlign: 'center',
-    display: 'block',
     color: 'white',
   }
   var styles2 = {
@@ -33,7 +33,7 @@ function HeaderSG(){
   return (
     <div className="square-box" style={styles1}>
       <div className="square-box" style={styles2}>
-        <h2 >SeatGeek Logo</h2>
+        <img src={logoHeader}/>
       </div>
       <div className="square-box" style={styles2}>
         <Link className="link-box" style={linkStyles} to="/">Home</Link> <Link className="link-box" style={linkStyles} to="/newticket">Create Ticket</Link> <Link className="link-box" style={linkStyles} to="/sport">Sport</Link> <Link className="link-box" style={linkStyles} to="/search">Music</Link> <Link className="link-box" style={linkStyles} to="/movies">Movie</Link> <Link className="link-box" style={linkStyles} to="/more">More</Link> <Link className="link-box" style={linkStyles} to="/sell">Sell</Link>
